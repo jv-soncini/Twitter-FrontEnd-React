@@ -96,5 +96,13 @@ export const Location = styled(LocationOn)`${IconCSS}`;
 export const IconCake = styled(Cake)`${IconCSS}`;
 
 export const FollowAge = styled.div`
-    display: flex
+    display: flex;
+
+    >span {
+        fot-size: 15px;
+        color: var(--gray);
+        & + span {
+            margin-left: 25px;
+        }
+    }
 `;
