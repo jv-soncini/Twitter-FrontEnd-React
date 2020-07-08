@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    text-align: center
+    
 `;                   
 
 export const Tab = styled.div`
@@ -12,6 +12,7 @@ export const Tab = styled.div`
 
     font-weight: bold;
     font-size:15px;
+    text-align: center;
 
     outline: 0;
     cursor: pointer;
@@ -34,5 +35,5 @@ export const Tweet = styled.div`
 `;
 
 export const Tweets = styled.div`
-    
+
 `;

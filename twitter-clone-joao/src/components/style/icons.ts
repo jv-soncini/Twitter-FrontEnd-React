@@ -9,7 +9,7 @@ export { HomeCircle } from '@styled-icons/boxicons-solid/HomeCircle'
 export { SearchOutline } from '@styled-icons/evaicons-outline/SearchOutline'
 export {Person, Cake, Favorite} from 'styled-icons/material';
 export {ArrowLeft} from 'styled-icons/heroicons-solid';
-export {Chat} from 'styled-icons/heroicons-outline';
+export { Comment} from '@styled-icons/evil/Comment';
 export { Retweet } from "@styled-icons/evil/Retweet";
 export { Amazon } from "@styled-icons/boxicons-logos/Amazon";
 export { BellOutline } from '@styled-icons/evaicons-outline/BellOutline'
