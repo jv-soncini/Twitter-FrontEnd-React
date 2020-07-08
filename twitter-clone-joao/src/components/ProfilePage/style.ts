@@ -77,6 +77,8 @@ export const ProfileData = styled.div`
     > li {
         font-size: 15px;
         color: var(--gray);
+        display:flex;
+        
 
         > svg {
             fill: var(--gray);
@@ -100,7 +102,7 @@ export const FollowAge = styled.div`
     display: flex;
 
     >span {
-        fot-size: 15px;
+        font-size: 15px;
         color: var(--gray);
         & + span {
             margin-left: 25px;

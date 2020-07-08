@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components';
-import {ArrowLeft, Home, Notifications, Search, Email} from '../style/icons'
+import {ArrowLeft, HomeCircle, BellOutline, SearchOutline, Email} from '../style/icons'
 
 export const Container = styled.div`
     display: flex;
@@ -93,13 +93,13 @@ export const ProfileInfo = styled.div`
         }
         `;
 
-        export const HomeIcon   = styled(Home)`${IconCSS}
+        export const HomeIcon   = styled(HomeCircle)`${IconCSS}
 
         `;
-        export const SearchIcon = styled(Search)`${IconCSS}
+        export const SearchIcon = styled(SearchOutline)`${IconCSS}
 
         `;
-        export const BellIcon   = styled(Notifications)`${IconCSS}
+        export const BellIcon   = styled(BellOutline)`${IconCSS}
 
         `;
         export const EmailIcon  = styled(Email)`${IconCSS}
