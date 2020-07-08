@@ -1,5 +1,5 @@
 import React from 'react';
- import {Container, Banner, Avatar, ProfileData, Location, IconCake, FollowAge} from './style'
+ import {Container, Banner, Avatar, ProfileData, Location, IconCake, FollowAge, EditButton} from './style'
 
 
 const ProfilePage: React.FC = () => {
@@ -10,7 +10,7 @@ const ProfilePage: React.FC = () => {
           </Banner>
 
           <ProfileData>
-               {/* <EditButton outlined>Editar perfil</EditButton> */}
+               <EditButton outlined>Editar perfil</EditButton> 
 
                <h1>João Soncini</h1>
                <h2>@JoaoSoncinho</h2>
@@ -29,7 +29,7 @@ const ProfilePage: React.FC = () => {
                <ul>
                    <li>
                        <IconCake />
-                        Nascido(a) em 5 de fevereiro de 2003
+                        Nascido em 5 de fevereiro de 2003
                    </li>
                </ul>
 
