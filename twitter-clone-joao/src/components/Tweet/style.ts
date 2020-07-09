@@ -46,6 +46,10 @@ import {Comment, Favorite, Amazon, Retweet, } from '../../components/style/icons
         border-radius: 50%;
         flex-shrink: 0;
         background: var(--gray);
+
+        position: absolute;
+        top: 0;
+        left: 0%;
   `;
   export const  Content = styled.div`
         
@@ -54,7 +58,7 @@ import {Comment, Favorite, Amazon, Retweet, } from '../../components/style/icons
                                              
         width: 100%;
         margin-top: 2px;
-        padding-left: 10px;
+        padding-left: 59px;
 
   `;
   export const  Header = styled.div`
@@ -141,7 +145,7 @@ import {Comment, Favorite, Amazon, Retweet, } from '../../components/style/icons
       }
 
       &:nth-child(2) {
-            color: var(-retweet);
+            color: var(--retweet);
 
             > svg path {
                   fill: var(--retweet);

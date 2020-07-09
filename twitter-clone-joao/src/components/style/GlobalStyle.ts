@@ -40,7 +40,7 @@ export default createGlobalStyle`
     --retweet: #00c06b;                                 
     --like: #e8265e;
     --twitter: #794bc4;
-    --twitter-dar-hover: #011017;
-    --twitter-light-hover: #2c8ed6;
+    --twitter-dark-hover: #0e0013;
+    --twitter-light-hover: #794bc4ad;
 }
 `;
