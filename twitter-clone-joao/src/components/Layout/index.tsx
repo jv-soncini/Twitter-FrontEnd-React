@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Main from '../Main'
+import Main from '../Main';
 
-import SideBar from '../SideBar'
+import SideBar from '../SideBar';
 
-import MenuBar from '../MenuBar/index' 
+import MenuBar from '../MenuBar/';
 
 import { Container, Wrapper } from './style';
 
